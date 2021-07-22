@@ -1,0 +1,12 @@
+@mixin tipografiaBase($fuente, $tamanio, $estilo, $color, $bold, $line) {
+    font-family: $fuente;
+    font-size: $tamanio;
+    font-style: $estilo;
+    font-weight: $bold;
+    color: $color;
+    line-height: $line;
+}
+
+@mixin mobilLandscape{
+  @media (min-width: 700px) and (orientation: portrait) { @content; }
+}

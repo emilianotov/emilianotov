@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheAmbar/contactos</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Noto + Sans + JP: wght @ 100 & display = swap "rel =" stylesheet ">
+
+</head>
+
+<body>
+    <header>
+        <div class="header__principal">
+          <img class="header_imagen" src="img/logos/percha logo.png" alt="imagen principal"/>
+  
+          <h1 class="header__h1">SheAmbarVL #Ropa Informal</h1>
+        
+          <nav>
+            <ul class="boton">
+              <li><a class="boton boton--nav" href="index.html">Home</a></li>
+              <li><a class="boton boton--nav" href="tienda.html">Tienda</a></li>
+              <li><a class="boton boton--nav" href="ofertas.html">Ofertas</a></li>
+              <li><a class="boton boton--nav" href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <hr />
+
+
+    <main>
+        <h3 class="h3">
+            Registrate en la tienda completando el siguiente formulario
+        </h3>
+    </main>
+
+    <form action="" method="get">
+        <fieldset class="contacto">
+            <legend>Formulario</legend>
+            <br>
+            <!--elementos para el nombre-->
+            <div>
+                <label for="nombre1">nombre: </label>
+                <input type="text" name="nombre1">
+            </div>
+            <br>
+            <!--elemento para el apellido-->
+            <div>
+                <label for="apellido1">apellido: </label>
+                <input type="text" name="apellido1">
+            </div>
+            <br>
+            <!--elemento para que e-mail-->
+            <div>
+                <label for="e-mail">e-mail: </label>
+                <input type="email" name="e-mail">
+            </div>
+            <br>
+            <!--password-->
+            <div>
+                <label for="contraseña">contraseña: </label>
+                <input type="password" name="contraseña">
+            </div>
+            <br>
+            <!--elemento radio-->
+            <div>
+                <label for="sexo1">hombre</label>
+                <input type="radio" name="sexo1" value="hombre">
+                <label for="sexo1">mujer</label>
+                <input type="radio" name="sexo1" value="mujer">
+            </div>
+            <br>
+            <!--despleglable-->
+            <div>tipo de compra
+                <select name="talles" id="">
+                    <option value="s">minorista</option>
+                    <option value="m">mayorista</option>
+                </select>
+            </div>
+            <br>
+            <!--checkbox-->
+            <div>
+                <label for="newsletter">Desea recibir Newsletters?</label>
+                <input type="checkbox" name="newsletters" value="1">
+            </div>
+
+            <!--espacio para comentarios-->
+            <div>
+                <p><textarea name="comentarios" rows="5" cols="50">escribe tu consulta o comentario</textarea></p>
+            </div>
+            <br>
+
+            <!--terminos y condiciones-->
+
+            <!--checkbox-->
+            <div>
+                <label for="terminos">acepta terminos y condiciones</label>
+                <input type="checkbox" name="terminos" value="1">
+            </div>
+
+            <br>
+            <!--botones;  no lleva label, solo basta con poner input-->
+            <div>
+                <input type="submit" value="registrarse">
+                <input type="reset" value="limpiar formulario">
+            </div>
+
+
+        </fieldset>
+
+
+    </form>
+
+    <hr />
+    <footer id="footer">
+        <div>
+            <!--pie de página, copyright, redes sociales, contacto-->
+            <ul class="em li">
+                Atención al cliente
+                <br />
+                <li>dirección: Calle falsa 1234</li>
+                <li>teléfono: 011-111-1111</li>
+                <li>e-mail: ejemplo@mail.com</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="em li">
+                Buscanos en las Redes Sociales
+                <br />
+                <li><a href="https://www.instagram.com/?hl=es-la">Instagram</a></li>
+                <li>
+                    <a href="https://web.facebook.com/campaign/landing.php?&campaign_id=1662524771&extra_1
+        =s%7Cc%7C320628650080
+                %7Ce%7Cfacebook%7C&placement&creative=320628650080&
+                keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1662524771
+                %26adgroupid%3D67039035794%26matchtype%3De%26network%3Dg%26source%3Dnotmobile
+                %26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26targe
+                t%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1000073%26loc_interest_ms
+                %3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIk
+                umH8fKK8QIVhdrICh3JzgwMEAAYASAAEgLc2fD_BwE&_rdc=1&_rdr">facebook</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p>copyright</p>
+        </div>
+    </footer>
+</body>
+
+</html>

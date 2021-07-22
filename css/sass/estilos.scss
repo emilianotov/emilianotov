@@ -1,0 +1,43 @@
+@import "base/fuentes";
+@import "base/colores";
+@import "base/mixins";
+
+
+
+
+
+    
+.header__principal {
+    background-color: rgb(224, 186, 88);
+    width: 90vw;
+    display: inline-block;
+
+    .header__h1 {
+        font-family: "Brygada 1918", serif;
+        font-style: italic;
+        color: rgb(77, 88, 0);
+        justify-content: space-evenly;
+    }
+
+    .header__imagen {
+        width: 40vw;
+        height: 30px;
+        justify-content: start;
+    }
+    
+    
+    .boton {
+        background-color: rgba(228, 194, 26, 0.507);
+        border-radius: 10px solid black;
+    }
+    
+    
+    .boton__boton--nav {
+        color: black;
+        justify-content: space-evenly;
+    }
+    
+        
+}
+
+
